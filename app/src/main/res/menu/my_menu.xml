@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/currencyListMenuEntry"
+    android:title="Currency List"
+    app:showAsAction="never">
+</item>
+
+<item
+    android:id="@+id/refreshRatesMenuEntry"
+    android:title="Refresh Rates"
+    app:showAsAction="never">
+</item>
+
+<item android:id="@+id/action_share" android:title="Share"
+    app:showAsAction="ifRoom"
+    app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider">
+</item>
+
+</menu>
